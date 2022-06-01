@@ -75,10 +75,16 @@
 
   .footercontainer{
     background-color: #232323;
-    border-top-width: 1vh;
-    border-top-color: white;
-    border-top-style: line;
     width: 100%;
     height: 15vh;    
+  }
+
+
+  .copyright{
+    color: #fe58bc;
+    font-family: terminal;
+    font-size: 1.4vw;
+    text-align: center;
+    padding-top: 2vw;
   }
   
