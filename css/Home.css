@@ -11,53 +11,67 @@
   .heading1container{
     background-color: transparent;
     width: 100%;
-    height: 45vh;
+    height: 22vw;
   }
 
-  .introtext{
+  .introtext1{
     font-family: terminal;
     font-size: 5vw;
     color: #04d9ff;
     margin-left: 10%;
     padding-top: 2vw;
     width: 35.7%;
-    float: left;
   }
-
-  .introcursor{
-    height: 8vh;
-    width: 1.8%;
-    background-color: #fe58bc;
-    float: right;
-    margin-right: 52%;
-    margin-top: 16vh;
+  .introtext2{
+    color: #04d9ff;
+    width: 36.5%;
+    font-size: 5vw;
+    font-family: terminal;
+    overflow: hidden;
+    border-right: 2.3vw solid;
+    border-color: #fe58bc;
+    white-space: nowrap;
+    margin-left: 10%;
     animation: 
       introcursorBlinking .5s step-end infinite;
   }
 
   @keyframes introcursorBlinking{
-    from, to {background-color: transparent}
-    50% {background-color: #fe58bc}
+    from, to {border-color: transparent}
+    50% {border-color: #fe58bc}
   }
 
   .introbutton{
-    float: right;
     background-color: #232323;
     color: #04d9ff;
     border-color: #04d9ff;
     border-width: 0.1vw;
     border-style: solid;
     font-family: terminal;
-    font-size: 2vw;
-    height: 7vh;
-    width: 15%;
-    margin-top: 5vh;
-    margin-right: 42.5%;
+    font-size: 2.3vw;
+    height: 3vw;
+    width: 17%;
+    margin-top: 3vw;
     transition: 0.5s;
+    text-align: center;
+    text-decoration: none;
+    margin-left:41.5% ;
+    display: inline-block;
+    padding-top: 0.8vw;
   }
 
   .introbutton:hover{
     border-color: #fe58bc;
   }
 
-  .heading2container
+  .heading2container{
+    background-color: black;
+    width: 100%;
+    height: 35vw;
+  }
+
+  .heading3container{
+    background-color: transparent;
+    width: 100%;
+    height: 25vw;
+  }
