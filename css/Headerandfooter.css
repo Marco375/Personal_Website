@@ -1,28 +1,84 @@
+  @font-face {
+    font-family: terminal ;
+    src: url("VT323-Regular.ttf");
+  }
+  
   .headercontainer{
-      width: 100%;
-      height: 20vh;
-      background-color: #353535;
+    width: 100%;
+    height: 15vh;
+    margin-top: auto;
+    background-color: #232323;
+  }
+
+  .namecontainer{
+    padding-top: 4vh;
+    padding-left: 5%;
+    display: flex;
+    height: 2vw;
+    width:23%;
+    float: left;
   }
 
   .name {
-    color: #fff;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Givesthat scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */ 
+    color: #04d9ff;
+    font-size: 2.5vw;
+    font-family: terminal;
+    overflow: hidden;
+    border-right: 1vw solid;
+    border-color: #4ea4cf;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: .15em;
     animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
+      nametyping 3s steps(17, end),
+      cursorBlinking .5s step-end infinite;
     }
 
   @keyframes nametyping {
-    from { width: 0 }
-    to { width: 100% }
+    from {width: 0}
+    to {width: 100%}
   }
 
-  @keyframes cursor-blinking {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
+  @keyframes cursorBlinking {
+    from, to {border-color: transparent}
+    50% {border-color: #04d9ff}
   }
+
+  .links {
+    background-color: none;
+    font-family: terminal;
+    font-size: 2.5vw;
+    width: 60%;
+    height: 5vw;
+    float: right;
+    margin-top: 4.5vh;
+  }
+  .links a {
+    color: #04d9ff;
+    text-align: center;
+    margin-left: 2vw;
+    text-decoration: none;
+    border-bottom-width: 0.3vh;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    animation: 0.3s;
+  }
+  .links a:hover {
+    border-bottom-color: #fe58bc;
+  }
+
+  .bodycontainer{
+      background-color: transparent;
+      width: 100%;
+      height: 100vh;
+  }
+
+  .footercontainer{
+    background-color: #232323;
+    border-top-width: 1vh;
+    border-top-color: white;
+    border-top-style: line;
+    width: 100%;
+    height: 15vh;    
+  }
+  
