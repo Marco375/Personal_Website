@@ -6,5 +6,58 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-
   }
+
+  .heading1container{
+    background-color: transparent;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .introtext{
+    font-family: terminal;
+    font-size: 5vw;
+    color: #04d9ff;
+    margin-left: 10%;
+    padding-top: 2vw;
+    width: 35.7%;
+    float: left;
+  }
+
+  .introcursor{
+    height: 8vh;
+    width: 1.8%;
+    background-color: #fe58bc;
+    float: right;
+    margin-right: 52%;
+    margin-top: 16vh;
+    animation: 
+      introcursorBlinking .5s step-end infinite;
+  }
+
+  @keyframes introcursorBlinking{
+    from, to {background-color: transparent}
+    50% {background-color: #fe58bc}
+  }
+
+  .introbutton{
+    float: right;
+    background-color: #232323;
+    color: #04d9ff;
+    border-color: #04d9ff;
+    border-width: 0.1vw;
+    border-style: solid;
+    font-family: terminal;
+    font-size: 2vw;
+    height: 7vh;
+    width: 15%;
+    margin-top: 5vh;
+    margin-right: 42.5%;
+    transition: 0.5s;
+  }
+
+  .introbutton:hover{
+    border-color: #fe58bc;
+  }
+
+  .heading2container

@@ -61,7 +61,7 @@
     border-bottom-width: 0.3vh;
     border-bottom-style: solid;
     border-bottom-color: transparent;
-    animation: 0.3s;
+    transition: 0.3s;
   }
   .links a:hover {
     border-bottom-color: #fe58bc;
