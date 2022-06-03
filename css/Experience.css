@@ -10,7 +10,7 @@
 
   .pageheadingcontainer{
     background-color: transparent;
-    width: 23%;
+    width: 23.3%;
     margin: auto;
   }
 
@@ -37,4 +37,9 @@
   @keyframes headingcursorBlinking {
     from, to {border-color: transparent}
     50% {border-color: #fe58bc}
+  }
+
+  .workexperiencecontainer{
+    width: 80%;
+    height: 50vw;
   }
