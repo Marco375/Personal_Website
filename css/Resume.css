@@ -79,4 +79,66 @@
     font-size: 1.5vw;
     padding-top: 0.15vw;
   }
+
+  .freelanceworkcontainer{
+    width: 70%;
+    height: auto;
+    margin: auto; 
+    padding-top: 0.5vw;    
+  }
+
+  .flexboxcontainer{
+    width: 100%;
+    margin:auto;
+    padding-top: 4vw;   
+  }
+
+  .flexbox{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: auto;
+  }
+
+  .flexleft{
+    width: 45%;
+    margin-right: 5%;
+    height: 100vw;
+    float: left;
+  }
+
+  .experiencetext{
+    color: #04d9ff;
+    font-family: terminal;
+    font-size: 2vw;
+    padding-top: 0.15vw;
+    padding-bottom: 0.15vw;   
+  }
+
+  .eperiencebarcontainer{
+    width: 15vw;
+    height: 1.5vw;
+    margin-top: 1vw;
+    border-style: solid;
+    border-width: 0.15vw;
+    border-color: #fe58bc;
+    margin-left: 2vw;    
+  }
+
+  .experiencebar{
+    height: 100%;
+    background-color: #04d9ff;  
+  }
   
+  .flexright{
+    width: 45%;
+    margin-left: 5%;
+    background-color: azure;
+    height: 100vw;
+    float: right;
+  }
+
+  .width{
+    width: 50%;    
+  }
+
