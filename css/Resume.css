@@ -1,0 +1,82 @@
+.bodybackround{
+    background-color: none;
+    margin: 0;    
+    background: #232323;
+    background-image: linear-gradient(150deg, #232323 60%, #04d9ff 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;    
+  }
+
+  .pageheadingcontainer{
+    background-color: transparent;
+    width: 14%;
+    margin: auto;
+  }
+
+  .pageheading{
+    color: #fe58bc;
+    font-size: 4vw;
+    font-family: terminal;
+    overflow: hidden;
+    border-right: 1.3vw solid;
+    border-color: #fe58bc;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: .15em;
+    animation: 
+      headingtyping 3s steps(17, end),
+      headingcursorBlinking .5s step-end infinite;
+  }
+
+  @keyframes headingtyping {
+    from {width: 0}
+    to {width: 100%}
+  }
+
+  @keyframes headingcursorBlinking {
+    from, to {border-color: transparent}
+    50% {border-color: #fe58bc}
+  }
+
+  .aboutcontainer{
+      width: 70%;
+      height: auto;
+      margin: auto;
+  }
+ 
+  .heading1{
+    font-family: terminal;
+    font-size: 2.5vw;
+    color: #fe58bc;
+    margin-bottom: 0.3vw   
+  }
+  .text1
+  {
+      margin: auto;
+      font-family: terminal;
+      font-size: 1.5vw;
+      color: #04d9ff;
+  }
+ 
+  .goalscontainer{
+    width: 70%;
+    height: auto;
+    margin: auto; 
+    padding-top: 0.5vw;
+  }
+
+  .educationcontainer{
+    width: 70%;
+    height: auto;
+    margin: auto; 
+    padding-top: 0.5vw; 
+  }
+
+  .education{
+    color: #04d9ff;
+    font-family: terminal;
+    font-size: 1.5vw;
+    padding-top: 0.15vw;
+  }
+  
