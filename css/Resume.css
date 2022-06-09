@@ -103,7 +103,6 @@
   .flexleft{
     width: 45%;
     margin-right: 5%;
-    height: 100vw;
     float: left;
   }
 
@@ -133,8 +132,6 @@
   .flexright{
     width: 45%;
     margin-left: 5%;
-    background-color: azure;
-    height: 100vw;
     float: right;
   }
 
