@@ -1,0 +1,40 @@
+.bodybackround{
+    background-color: none;
+    margin: 0;    
+    background: #232323;
+    background-image: linear-gradient(320deg, #232323 60%, #04d9ff 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;    
+  }
+
+  .pageheadingcontainer{
+    background-color: transparent;
+    width: 19%;
+    margin: auto;
+  }
+
+  .pageheading{
+    color: #fe58bc;
+    font-size: 4vw;
+    font-family: terminal;
+    overflow: hidden;
+    border-right: 1.3vw solid;
+    border-color: #fe58bc;
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: .15em;
+    animation: 
+      headingtyping 3s steps(17, end),
+      headingcursorBlinking .5s step-end infinite;
+  }
+
+  @keyframes headingtyping {
+    from {width: 0}
+    to {width: 100%}
+  }
+
+  @keyframes headingcursorBlinking {
+    from, to {border-color: transparent}
+    50% {border-color: #fe58bc}
+  }
