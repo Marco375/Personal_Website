@@ -40,21 +40,30 @@
   }
 
   .projectcontainer{
-
+     width: 90%;
+     height: auto;
+     margin-top: 2vw;
   }
 
   .projectheading{
-
+     font-family: terminal;
+     font-size: 2vw;
+     color: #fe58bc;
   }
 
   .projecttext{
-
+    font-family: terminal;
+    font-size: 1.5vw;
+    color: #04d9ff;  
+  }
+  .projectdescriptioncontainer{
+    float: right;
+    width: 45%;
+    margin-left: 5%;
   }
 
   .projectimg{
-
-  }
-
-  .projectbutton{
-
+    width: 45%;
+    float: left;
+    margin-left: 5%;
   }
