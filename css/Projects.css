@@ -67,3 +67,15 @@
     float: left;
     margin-left: 5%;
   }
+
+  .upcomingprojectscontainer{
+    width: 90%;
+    height: auto;
+    margin-top: 4vw;
+  }
+
+  .heading{
+    font-family: terminal;
+    font-size: 2vw;
+    color: #fe58bc;
+  }
