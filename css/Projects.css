@@ -57,14 +57,14 @@
     color: #04d9ff;  
   }
   .projectdescriptioncontainer{
-    display: inline;
+    float: right;
     width: 45%;
     margin-left: 5%;
   }
 
   .projectimg{
     width: 45%;
-    display: inline;
+    float: left;
     margin-left: 5%;
   }
 
