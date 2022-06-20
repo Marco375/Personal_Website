@@ -40,14 +40,15 @@
   }
 
   .projectcontainer{
+    position: relative;
      width: 90%;
-     height: auto;
+     height: 23vw;
      margin-top: 2vw;
   }
 
   .projectheading{
      font-family: terminal;
-     font-size: 2vw;
+     font-size: 2.3vw;
      color: #fe58bc;
   }
 
@@ -70,12 +71,11 @@
 
   .upcomingprojectscontainer{
     width: 90%;
-    height: auto;
-    margin-top: 4vw;
+    margin-left: 5%;
   }
 
   .heading{
     font-family: terminal;
-    font-size: 2vw;
+    font-size: 2.3vw;
     color: #fe58bc;
   }
