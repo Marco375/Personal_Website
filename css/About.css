@@ -45,12 +45,18 @@
     height: auto;
   }
 
+  .flexbox{
+    display: flex;
+  }
+
   .aboutphoto{
     width: 50%;
+    background-image: url(AboutPhoto.jpg);
+    background-size: cover;
+    box-shadow: 0 0 9px 9px #232323;
   }
 
   .abouttext{
-    float: right;
     font-family: terminal;
     font-size: 2vw;
     width: 45%;

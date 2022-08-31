@@ -24,7 +24,7 @@
   }
   .introtext2{
     color: #04d9ff;
-    width: 36.5%;
+    width: 40.2%;
     font-size: 5vw;
     font-family: terminal;
     overflow: hidden;
@@ -41,7 +41,7 @@
     50% {border-color: #fe58bc}
   }
 
-  .introbutton{
+  .button{
     background-color: #232323;
     color: #04d9ff;
     border-color: #04d9ff;
