@@ -90,7 +90,8 @@
 
   @media only screen and (max-width: 768px) {
     .links{
-      font-size: 3.5vw;
+      font-size: 5vw;
+      width: 90%;
     }
 
     .name{
@@ -100,9 +101,16 @@
       height: 3.8vw;
       width: 31%;
       padding-left: 1vw;
+      display: none;
     }
     .headercontainer{
       height: 8vw
+    }
+    .footercontainer{
+      height: 4vw;
+    }
+    .copyright{
+      font-size: 2vw;
     }
   }
   
