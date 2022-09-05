@@ -93,7 +93,9 @@
       font-size: 5vw;
       width: 90%;
     }
-
+    .headercontainer{
+      height: 50vw;
+    }
     .name{
       font-size: 3.5vw;
     }
