@@ -60,6 +60,10 @@
     padding-top: 0.8vw;
   }
 
+  .button:hover{
+    border-color: #fe58bc;
+  }
+
   .introbutton:hover{
     border-color: #fe58bc;
   }
@@ -67,7 +71,7 @@
   .heading2container{
     background-color: #232323;
     width: 100%;
-    height: 35vw;
+    height: 30vw;
   }
 
   .heading1{
@@ -127,4 +131,9 @@
     margin-top: 2vw;
     margin-right: 10%;
     margin-bottom: 1vw;  
+  }
+
+  @media only screen and (max-width: 768px) {
+   
+    
   }
