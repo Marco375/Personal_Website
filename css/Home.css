@@ -145,7 +145,7 @@
    }
    .introtext2{
      font-size: 10vw;
-     width: 80%; 
+     width: 82.5%; 
      margin-left: 2%;
    }
    .button{
@@ -154,5 +154,25 @@
      font-size: 5vw;
      margin-left: 30%;
    }
+
+   .heading2container{
+     height: 42vw;
+   }
+
+   .heading1{
+     font-size: 8.5vw;
+   }
+
+   .text1{
+     font-size: 4vw;
+   }
     
+   .heading3container{
+     height: 50vw;
+   }
+
+   .projecttext{
+     font-size: 3vw;
+   }
+
   }
