@@ -118,3 +118,38 @@
   .downloadbutton:hover{
     border-color: #fe58bc;
   }
+
+  @media only screen and (max-width: 768px) {
+    .pageheading{
+      font-size: 6vw;
+    }
+    .pageheadingcontainer{
+      width: 27%;
+    }
+    
+    .projectheading{
+      font-size: 4.5vw;
+    }
+    .projectimg{
+      display: none;
+    }
+    .projecttext{
+      font-size: 4vw;
+    }
+    .projectdescriptioncontainer{
+      width: 90%;
+    }
+    .heading{
+      font-size: 4.5vw;
+    }
+    .tablecollum{
+      width: 45%;
+      font-size:4vw;
+    }
+    .downloadbutton{
+      width:40%;
+      height:6vw;
+      font-size: 5vw;
+      margin-left: 30%;
+    }
+  }

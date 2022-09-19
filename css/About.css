@@ -63,3 +63,24 @@
     margin-left: 3%;
     color: #04d9ff;  
   }
+  @media only screen and (max-width: 768px) {
+    .abouttext{
+      font-size: 4vw;
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    .aboutphoto{
+      display: none;
+    }
+    .bodybackround{
+      background-image: linear-gradient(320deg, #232323 80%, #04d9ff 100%);  
+    }
+
+    .pageheading{
+      font-size: 6vw;
+    }
+    .pageheadingcontainer{
+      width: 17%;
+    }
+  }

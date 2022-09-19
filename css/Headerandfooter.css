@@ -93,7 +93,6 @@
       font-size: 5vw;
       width: 90%;
     }
-
     .name{
       font-size: 3.5vw;
     }
@@ -111,6 +110,9 @@
     }
     .copyright{
       font-size: 4vw;
+    }
+    .footercontainer{
+      height: 20vh;
     }
   }
   
